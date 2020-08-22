@@ -2,7 +2,12 @@ using System;
 //4. Faça um Programa que peça as 4 notas bimestrais e mostre a média
 class MainClass {
   public static void media(float a,float b,float c,float d){
+    float soma;
+    float media;
+    soma=a+b+c+d;
+    media=soma/4;
 
+    Console.Write(media);
   }
 
   public static void Main () {
@@ -20,6 +25,6 @@ class MainClass {
     Console.Write("Insira a quarta nota bim.: ");
     cuatro = float.Parse(Console.ReadLine());
 
-
+    media(uno,dos,tres,cuatro);
   }
 }
