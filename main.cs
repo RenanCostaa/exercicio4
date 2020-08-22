@@ -7,7 +7,7 @@ class MainClass {
     soma=a+b+c+d;
     media=soma/4;
 
-    Console.Write(media);
+    Console.Write("Sua média calculada foi de {0} pontos!",media);
   }
 
   public static void Main () {
